@@ -3,7 +3,7 @@
 
 <b>This is a simple @SpringBootApplication:</b>
 
-    -uses JpaRepository + H2 database
+    -uses JpaRepository + com.h2database
     -Contains @RestController for REST uri's
     -Contains @Controller to return ModelAndView to JSP/JSTL
     -Full Customer CRUD application that will run as a JAR
