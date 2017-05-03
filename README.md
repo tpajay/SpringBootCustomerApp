@@ -1,6 +1,8 @@
 # SpringBootCustomerApp
 <b>Simple Spring Boot Application includes REST, Controller, JSP/JSTL, uses JPARespositry, coding from Scratch</b>
 
+<b>This is the way applications should be deployed (unlike the large EAR or WAR deployments, ugh)</b>
+
 <b>This is a simple @SpringBootApplication:</b>
 
     -uses JpaRepository + com.h2database
