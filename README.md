@@ -1,8 +1,6 @@
 # SpringBootCustomerApp
 <b>Simple Spring Boot Application includes REST, Controller, JSP/JSTL, uses JPARespositry, coding from Scratch</b>
 
-<b>This is the way applications should be deployed (unlike the large EAR or WAR deployments, ugh)</b>
-
 <b>This is a simple @SpringBootApplication:</b>
 
     -uses JpaRepository + com.h2database
@@ -15,4 +13,3 @@
         mvn package
         java -jar target/spring-boot-customer-ms-0.1.0.jar
  
-<b>Using this to practice coding without any resources or reference documentation.</b>
