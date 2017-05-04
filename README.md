@@ -12,4 +12,7 @@
     -run as jar:
         mvn package
         java -jar target/spring-boot-customer-ms-0.1.0.jar
+    -test
+        localhost:8080/customer/1
+        localhost:8080/customer/page/list
  
