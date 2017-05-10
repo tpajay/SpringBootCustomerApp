@@ -1,5 +1,5 @@
 # SpringBootCustomerApp
-<b>Simple Spring Boot Application includes REST, Controller, JSP/JSTL, uses JPARespositry, coding from Scratch</b>
+<b>Simple Spring Boot Application includes REST, Controller, JSP/JSTL, uses JPARespositry</b>
 
 <b>This is a simple @SpringBootApplication:</b>
 
