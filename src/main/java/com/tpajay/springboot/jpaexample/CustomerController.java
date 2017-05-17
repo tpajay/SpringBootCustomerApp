@@ -17,6 +17,7 @@ public class CustomerController {
 	@Autowired
 	CustomerJpaRepository custRepo;
 
+	//Get a customer by ID
 	@RequestMapping("/customer/{id}")
 	public Customer getCustomer(@PathVariable("id") long id) {
 		System.out.println("CustomerController getCustomer, id = " + id);
@@ -24,6 +25,7 @@ public class CustomerController {
 		return customer;
 	}
 	
+	//Save a newly submitted customer from JSP front end
 	@RequestMapping("/customer")
 	public void save(@RequestBody Customer customer) {
 		custRepo.save(customer);
