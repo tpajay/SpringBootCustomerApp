@@ -12,6 +12,8 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class CustomerController {
 	
+	//You can also build a @Service CustomerService class and autowire it here
+	//but for this simple example I just bypassed the Service class.
 	@Autowired
 	CustomerJpaRepository custRepo;
 
