@@ -25,12 +25,10 @@ public class CustomerSpringBootApp {
 		return (args) -> {
 			
 			
-			repository.save(new Customer("John", "Smith"));
+			repository.save(new Customer("Eddie", "Vedder"));
 			repository.save(new Customer("Bob", "Marley"));
 			repository.save(new Customer("Kurt", "Cobain"));
-			repository.save(new Customer("Sid", "Vicious"));
-			repository.save(new Customer("Fraiser", "Crane"));
-			repository.save(new Customer("Niles", "Crane"));
+			repository.save(new Customer("Anthony", "Kiedis"));
 
 			// List all Customers to LOG
 			for (Customer customer : repository.findAll()) {
