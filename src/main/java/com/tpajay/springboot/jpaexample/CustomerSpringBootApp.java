@@ -32,7 +32,7 @@ public class CustomerSpringBootApp {
 			repository.save(new Customer("Fraiser", "Crane"));
 			repository.save(new Customer("Niles", "Crane"));
 
-			// List all Customers in LOG
+			// List all Customers to LOG
 			for (Customer customer : repository.findAll()) {
 				log.info(customer.toString());
 			}
